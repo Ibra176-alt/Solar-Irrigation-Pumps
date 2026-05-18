@@ -1,26 +1,26 @@
-# HERVeg.05 — One Season Without Rain
+# HERVeg.05 — One Farmer's Year
 
-Cinematic interactive documentary proposal for solar-powered irrigation in Tanzania.
+An immersive 12-month cinematic narrative built as an interactive documentary proposal.
 
-## Files
-- `index.html` — film-like 11-act narrative structure.
-- `styles.css` — cinematic visual system, typography, atmosphere.
-- `script.js` — Lenis + GSAP + ScrollTrigger motion choreography.
-- `assets/images/` — place documentary images used by `data-img` scenes.
+## Structure
+- `index.html` — 12-month scroll film (Jan → Dec) centered on Amina.
+- `styles.css` — adaptive seasonal visual system and cinematic typography.
+- `script.js` — Lenis + GSAP + ScrollTrigger motion and environmental transitions.
+- `assets/images/` — documentary scene imagery for all `data-img` panels.
 
-## Run
+## Run locally
 ```bash
 python3 -m http.server 8080
 ```
-Visit `http://localhost:8080`.
+Open: `http://localhost:8080`
 
-## Required image placeholders
+## Expected image placeholders
 - `scene1-drought.jpg`
 - `scene2-manual-watering.jpg`
 - `scene3-solar-water.jpg`
 - `scene4-lush-fields.jpg`
-- `scene5-vsla.jpg`
-- `scene7-amina-before.jpg`
+- `scene6-family-harvest.jpg`
 - `scene7-amina-training.jpg`
 - `scene7-amina-harvest.jpg`
 - `scene7-amina-family.jpg`
+- `scene8-scale.jpg`

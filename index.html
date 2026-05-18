@@ -4,60 +4,156 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HERVeg.05 — Small plots. Big impact.</title>
-  <meta name="description" content="Cinematic investor proposal experience for solar-powered irrigation for women farmers in Tanzania." />
+  <meta name="description" content="An immersive cinematic investor proposal for solar-powered irrigation for women farmers in Tanzania." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div id="app">
-    <header class="hero section" id="hero">
-      <div class="sun"></div><div class="sun-ring"></div>
-      <div class="hero-content">
-        <p class="eyebrow">HERVeg.05 · Small plots. Big impact.</p>
-        <h1 class="reveal">100 Women. 12 Months. One Proven Path to Year-Round Food and Income.</h1>
-        <p class="sub">Most women farmers in Tanzania depend entirely on rain. When the rain stops, everything stops.</p>
-        <div class="scroll-indicator">Scroll to experience ↓</div>
-      </div>
-    </header>
+  <div class="grain"></div>
+  <main id="experience">
 
-    <section class="section reality panel-image" data-img="assets/images/scene1-drought.jpg">
-      <h2>When Rain Fails, Life Stalls.</h2>
-      <div class="stats">
-        <article><strong class="count" data-target="80">0</strong><span>% smallholder farms rely on rainfall</span></article>
-        <article><strong class="count" data-target="2.36">0</strong><span>% irrigated land</span></article>
-        <article><strong class="count" data-target="70">0</strong><span>% workforce in agriculture</span></article>
+    <section class="hero section pin" id="hero">
+      <div class="hero-bg"></div>
+      <div class="sun"></div>
+      <div class="sun-ring"></div>
+      <div class="hero-content">
+        <p class="eyebrow">HERVeg.05</p>
+        <p class="tag">Small plots. Big impact.</p>
+        <h1>100 Women. 12 Months. One Proven Path to Year-Round Food and Income.</h1>
+        <p class="sub">Most women farmers in Tanzania depend entirely on rain. When the rain stops, everything stops.</p>
       </div>
+      <div class="scroll-indicator">Scroll to begin the story</div>
+    </section>
+
+    <section class="section panel-image reality" data-img="assets/images/scene1-drought.jpg">
+      <div class="overlay-copy">
+        <p class="small">THE CRISIS</p>
+        <h2>In one dry spell, a season disappears.</h2>
+        <p>Seeds still in the ground. School fees unpaid. Dinner uncertain. A climate shock turns hard work into risk overnight.</p>
+      </div>
+      <div class="stats">
+        <article><strong class="count" data-target="80">0</strong><span>% of smallholder farms rely on rainfall</span></article>
+        <article><strong class="count" data-target="2.36">0</strong><span>% of land is irrigated</span></article>
+        <article><strong class="count" data-target="70">0</strong><span>% of the workforce depends on agriculture</span></article>
+      </div>
+    </section>
+
+    <section class="section panel-image labor" data-img="assets/images/scene2-manual-watering.jpg">
+      <blockquote>
+        "Before sunrise, women carry water by hand. By noon, the soil is dry again."
+      </blockquote>
+    </section>
+
+    <section class="section pause">
+      <p>Pause here.<br>Feel the distance between effort and outcome.</p>
     </section>
 
     <section class="section insight"><h2>The problem is not farming.<br><span>The problem is access to water.</span></h2></section>
 
-    <section class="section solution">
-      <h2>Save. Unlock. Grow.</h2>
-      <div class="flow"><div>75% Farmer Savings</div><div>25% HERVeg Subsidy</div><div>Year-round irrigation</div></div>
+    <section class="section solution" data-theme="light">
+      <p class="small">THE BREAKTHROUGH</p>
+      <h2>Solar irrigation converts uncertainty into planning.</h2>
+      <div class="flow">
+        <article><h3>SAVE</h3><p>Women contribute 75% via trusted mobile layaway. Their stake is real.</p></article>
+        <article><h3>UNLOCK</h3><p>HERVeg.05 funds the final 25% to close the affordability gap without debt.</p></article>
+        <article><h3>GROW</h3><p>Reliable irrigation enables 2–3 seasons, better timing, and consistent supply.</p></article>
+      </div>
+      <svg class="flow-lines" viewBox="0 0 900 120" aria-hidden="true">
+        <path id="moneyPath" d="M80 65 C220 10, 320 110, 450 60 C580 10, 680 105, 820 55"></path>
+      </svg>
     </section>
 
-    <section class="section cards"><h2>Ownership, not dependency.</h2><div class="grid">
-      <article>No debt financing</article><article>Farmer-owned assets</article><article>Trusted mobile app</article><article>Village agent network</article><article>Proven pump suppliers</article><article>Scalable operations</article>
-    </div></section>
+    <section class="section cards">
+      <h2>Ownership, not dependency.</h2>
+      <p class="lead">The model works because it respects agency, uses existing systems, and scales through trust.</p>
+      <div class="grid">
+        <article><h3>No debt pressure</h3><p>Women are not trapped by repayment cycles that punish bad weather.</p></article>
+        <article><h3>Farmer ownership</h3><p>Equipment belongs to the household, preserving dignity and long-term value.</p></article>
+        <article><h3>Trusted app rails</h3><p>Digital tracking creates transparency for farmers, agents, and funders.</p></article>
+        <article><h3>Village agents</h3><p>Last-mile relationships are local, familiar, and accountable.</p></article>
+        <article><h3>Proven suppliers</h3><p>Deployment is grounded in equipment that already performs in context.</p></article>
+        <article><h3>Replicable playbook</h3><p>One validated workflow can be repeated district by district.</p></article>
+      </div>
+    </section>
 
-    <section class="section before-after"><h2>Before vs After</h2><div class="split"><div><h3>Before</h3><p>One season · Losses · Uncertainty</p></div><div><h3>After</h3><p>2–3 seasons · Reliable yields · Resilience</p></div></div></section>
+    <section class="section before-after">
+      <h2>Before vs After</h2>
+      <div class="split">
+        <div class="before"><h3>Before</h3><ul><li>One short season</li><li>Frequent crop losses</li><li>Cashflow anxiety</li></ul></div>
+        <div class="after"><h3>After</h3><ul><li>2–3 growing cycles</li><li>Reliable harvest windows</li><li>Higher, steadier income</li></ul></div>
+      </div>
+    </section>
 
-    <section class="section impact"><h2>Impact Dashboard</h2><svg viewBox="0 0 600 240" class="chart"><polyline id="growth" points="20,200 120,185 220,165 320,130 420,95 520,55"/></svg><div class="kpis"><span>100 women farmers</span><span>35–40 pumps</span><span>15–25% income increase</span><span>50% crop loss reduction</span><span>80% app engagement</span></div></section>
+    <section class="section impact">
+      <p class="small">HUMAN IMPACT</p>
+      <h2>Each metric means food on a table, not just numbers on a slide.</h2>
+      <svg viewBox="0 0 600 240" class="chart"><polyline id="growth" points="20,200 120,184 220,161 320,128 420,92 520,52"/></svg>
+      <div class="kpis">
+        <span><strong>100</strong> women, each with a clearer season plan</span>
+        <span><strong>35–40</strong> pumps enabling reliable irrigation access</span>
+        <span><strong>15–25%</strong> income growth for household stability</span>
+        <span><strong>50%</strong> fewer losses from dry-season shock</span>
+        <span><strong>80%</strong> app engagement for transparent operations</span>
+      </div>
+    </section>
 
-    <section class="section market"><h2>The market already exists.</h2></section>
+    <section class="section market panel-image" data-img="assets/images/scene4-lush-fields.jpg">
+      <h2>The market already exists.</h2>
+      <p>Dry-season demand remains unmet. Traders, schools, and bulk buyers are already waiting for consistent volume.</p>
+      <div class="demand-bars">
+        <div><label>Dry-season demand</label><span style="--w:92%"></span></div>
+        <div><label>Current supply</label><span style="--w:38%"></span></div>
+        <div><label>Projected supply with irrigation</label><span style="--w:79%"></span></div>
+      </div>
+    </section>
 
-    <section class="section roadmap"><h2>12-Month Roadmap</h2><div class="timeline"><div>SETUP</div><div>SAVE & DELIVER</div><div>EVALUATE</div></div></section>
+    <section class="section roadmap">
+      <h2>12-Month Implementation</h2>
+      <div class="timeline">
+        <article><p>Q1</p><h3>SETUP</h3><span>Farmer selection, onboarding, app upgrade, supplier prep.</span></article>
+        <article><p>Q2–Q3</p><h3>SAVE & DELIVER</h3><span>Layaway milestones, pump delivery, irrigation activation.</span></article>
+        <article><p>Q4</p><h3>EVALUATE</h3><span>Yield tracking, income outcomes, model validation for scale.</span></article>
+      </div>
+    </section>
 
-    <section class="section story panel-image" data-img="assets/images/scene7-amina.jpg"><h2>Amina’s story: drought to dignity.</h2><p>Training, irrigation, harvest, school fees, healthcare.</p></section>
+    <section class="section amina" id="amina">
+      <div class="amina-intro panel-image" data-img="assets/images/scene7-amina-before.jpg">
+        <p class="small">AMINA'S STORY</p>
+        <h2>Before irrigation, Amina farmed with fear.</h2>
+      </div>
+      <div class="amina-steps">
+        <article class="panel-image" data-img="assets/images/scene7-amina-struggle.jpg"><h3>Struggle</h3><p>Manual watering consumed hours. Drought erased effort.</p></article>
+        <article class="panel-image" data-img="assets/images/scene7-amina-training.jpg"><h3>Intervention</h3><p>Training + layaway + subsidy unlocked her first pump.</p></article>
+        <article class="panel-image" data-img="assets/images/scene7-amina-harvest.jpg"><h3>Transformation</h3><p>More vegetables, eggs, and market days. Income became more predictable.</p></article>
+        <article class="panel-image" data-img="assets/images/scene7-amina-family.jpg"><h3>Future hope</h3><p>School fees paid on time. Healthcare no longer delayed. Planning replaced panic.</p></article>
+      </div>
+    </section>
 
-    <section class="section funding"><h2>$15,125 Total · $151 per farmer</h2><div class="bars"><div style="--w:28%">App Upgrade</div><div style="--w:42%">Subsidies</div><div style="--w:18%">Training</div><div style="--w:12%">Monitoring</div></div></section>
+    <section class="section funding">
+      <h2>$15,125 total. $151 per farmer.</h2>
+      <p class="lead">Lean, transparent capital allocated to implementation—not overhead.</p>
+      <div class="bars">
+        <div style="--w:28%"><label>App upgrade</label><em>$4,200</em></div>
+        <div style="--w:42%"><label>Subsidies</label><em>$6,350</em></div>
+        <div style="--w:18%"><label>Training</label><em>$2,725</em></div>
+        <div style="--w:12%"><label>Monitoring</label><em>$1,850</em></div>
+      </div>
+    </section>
 
-    <section class="section scale panel-image" data-img="assets/images/scene8-scale.jpg"><h2>100 women today.<br>100,000+ tomorrow.</h2><p>Same app. Same infrastructure. Replication, not reinvention.</p></section>
+    <section class="section scale panel-image" data-img="assets/images/scene8-scale.jpg">
+      <h2>100 women today.<br>100,000+ tomorrow.</h2>
+      <p>Same app rails. Same field operations. Same suppliers. Scale through replication, not reinvention.</p>
+    </section>
 
-    <section class="section cta"><h2>Women farmers are not failing.<br>They are under-equipped.</h2><h3>Fund the proof.</h3><p>$15,125 | 100 Women | 12 Months | One Proven Model</p></section>
-  </div>
+    <section class="section cta">
+      <p class="small">THE INVITATION</p>
+      <h2>Women farmers are not failing.<br>They are under-equipped.</h2>
+      <h3>Fund the proof.</h3>
+      <p class="final-kpi">$15,125 | 100 Women | 12 Months | One Proven Model</p>
+    </section>
+  </main>
 
   <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.16/dist/lenis.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
